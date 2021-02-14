@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/st_titre2"
+        android:background="#9A009688"
+        android:text="Ajout" />
+
+    <EditText
+        android:id="@+id/ednum_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir num"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edlong_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir longitude"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edlat_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="saisir latitude"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnval_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            android:text="Valider" />
+
+        <Button
+            android:id="@+id/btnqte_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            android:text="Quitter" />
+    </LinearLayout>
+
+</LinearLayout>
